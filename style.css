@@ -1,0 +1,111 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Georgia", serif;
+  background: #f8f6f3;
+  color: #333;
+  line-height: 1.6;
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #2c2c2c;
+}
+
+header .subtitle {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Author’s Note */
+.author-note {
+  background: #fff;
+  border-left: 5px solid #c94f4f;
+  padding: 1.5rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.author-note h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #a83232;
+}
+
+.author-note p {
+  margin-bottom: 1rem;
+}
+
+.author-note .signature {
+  text-align: right;
+  font-style: italic;
+  color: #666;
+}
+
+/* Chapters */
+.chapter {
+  margin-bottom: 3rem;
+}
+
+.chapter h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.3rem;
+  color: #333;
+}
+
+/* Spread Layout (side by side pages) */
+.spread {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.page {
+  flex: 1;
+  background: #fff;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  border-radius: 4px;
+}
+
+.page h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  color: #444;
+}
+
+.page p {
+  white-space: pre-line; /* Keeps poem-like line breaks */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
